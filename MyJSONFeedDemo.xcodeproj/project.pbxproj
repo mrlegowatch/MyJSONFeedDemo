@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B63097831EF72385004FCD6A /* USGSEarthquakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63097821EF72385004FCD6A /* USGSEarthquakeData.swift */; };
+		B654BB861F00744800FCB60E /* DataFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B654BB851F00744800FCB60E /* DataFormatters.swift */; };
 		B6D979BE1EF712E6007AE4A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D979BD1EF712E6007AE4A4 /* AppDelegate.swift */; };
 		B6D979C01EF712E6007AE4A4 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D979BF1EF712E6007AE4A4 /* MasterViewController.swift */; };
 		B6D979C21EF712E6007AE4A4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D979C11EF712E6007AE4A4 /* DetailViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B63097821EF72385004FCD6A /* USGSEarthquakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USGSEarthquakeData.swift; sourceTree = "<group>"; };
+		B654BB851F00744800FCB60E /* DataFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFormatters.swift; sourceTree = "<group>"; };
 		B6D979BA1EF712E6007AE4A4 /* MyJSONFeedDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyJSONFeedDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D979BD1EF712E6007AE4A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6D979BF1EF712E6007AE4A4 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				B6D979BD1EF712E6007AE4A4 /* AppDelegate.swift */,
 				B6D979BF1EF712E6007AE4A4 /* MasterViewController.swift */,
 				B6D979C11EF712E6007AE4A4 /* DetailViewController.swift */,
+				B654BB851F00744800FCB60E /* DataFormatters.swift */,
+				B63097821EF72385004FCD6A /* USGSEarthquakeData.swift */,
 				B6D979C31EF712E6007AE4A4 /* Main.storyboard */,
 				B6D979C61EF712E6007AE4A4 /* Assets.xcassets */,
 				B6D979C81EF712E6007AE4A4 /* LaunchScreen.storyboard */,
@@ -265,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63097831EF72385004FCD6A /* USGSEarthquakeData.swift in Sources */,
 				B6D979C21EF712E6007AE4A4 /* DetailViewController.swift in Sources */,
 				B6D979C01EF712E6007AE4A4 /* MasterViewController.swift in Sources */,
+				B654BB861F00744800FCB60E /* DataFormatters.swift in Sources */,
 				B6D979BE1EF712E6007AE4A4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +528,7 @@
 				B6D979E61EF712E6007AE4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6D979E71EF712E6007AE4A4 /* Build configuration list for PBXNativeTarget "MyJSONFeedDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +537,7 @@
 				B6D979E91EF712E6007AE4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6D979EA1EF712E6007AE4A4 /* Build configuration list for PBXNativeTarget "MyJSONFeedDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +546,7 @@
 				B6D979EC1EF712E6007AE4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
