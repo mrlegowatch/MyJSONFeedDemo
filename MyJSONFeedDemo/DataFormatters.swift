@@ -79,3 +79,6 @@ func statusString(from status: USGSEarthquakeData.Feature.Properties.Status) -> 
     return status.rawValue.uppercased()
 }
 
+func tsunamiString(from tsunami: USGSEarthquakeData.Feature.Properties.Tsunami) -> String {
+    return tsunami == .possible ? "🌊" : ""
+}

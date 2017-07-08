@@ -22,7 +22,7 @@ class DetailViewController: UIViewController, MKMapViewDelegate {
     @IBOutlet weak var magnitudeLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
-    @IBOutlet weak var tsunamiImage: UIImageView!
+    @IBOutlet weak var tsunamiImage: UILabel!
     
     @IBOutlet weak var detailLabel: UILabel!
     
@@ -41,6 +41,7 @@ class DetailViewController: UIViewController, MKMapViewDelegate {
                 point.coordinate = CLLocationCoordinate2D(latitude: detail.geometry.latitude, longitude: detail.geometry.longitude)
                 point.title = magString
                 placeMap.addAnnotation(point)
+                placeMap.centerCoordinate = point.coordinate
                 
                 dateLabel.text = dateString(from: detail.properties.time)
                 timeLabel.text = timeString(from: detail.properties.time)
@@ -52,7 +53,7 @@ class DetailViewController: UIViewController, MKMapViewDelegate {
                 detailLabel.text = detail.properties.detail
                 statusLabel.text = statusString(from: detail.properties.status)
                 updatedLabel.text = updatedString(from: detail.properties.updated)
-                // TODO: tsunami image
+                tsunamiImage.text = tsunamiString(from: detail.properties.tsunami)
             }
         }
     }

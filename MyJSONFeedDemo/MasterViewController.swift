@@ -67,6 +67,9 @@ class MasterViewController: UITableViewController {
 
         let object = objects!.features[indexPath.row]
         cell.textLabel!.text = object.properties.title
+        let date = dateString(from: object.properties.time)
+        let time = timeString(from: object.properties.time)
+        cell.detailTextLabel!.text = date + time
         return cell
     }
     
