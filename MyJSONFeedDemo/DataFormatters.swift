@@ -29,7 +29,7 @@ func timeString(from timeInterval: Int) -> String {
     return formatter.string(from: date)
 }
 
-func updatedString(from timeInterval: Int) -> String {
+func dateTimeString(from timeInterval: Int) -> String {
     let date = dateTime(from: timeInterval)
     let formatter = DateFormatter()
     formatter.dateStyle = .medium

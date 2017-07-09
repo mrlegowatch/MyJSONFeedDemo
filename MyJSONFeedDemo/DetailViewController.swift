@@ -52,7 +52,7 @@ class DetailViewController: UIViewController, MKMapViewDelegate {
                 depthLabel.text = depthString(from: detail.geometry.depth)
                 detailLabel.text = detail.properties.detail
                 statusLabel.text = statusString(from: detail.properties.status)
-                updatedLabel.text = updatedString(from: detail.properties.updated)
+                updatedLabel.text = dateTimeString(from: detail.properties.updated)
                 tsunamiImage.text = tsunamiString(from: detail.properties.tsunami)
             }
         }
