@@ -8,7 +8,9 @@
 
 import Foundation
 
+// Example of nested Codable structs with single value keys and native types (Int, String, Double)
 struct USGSEarthquakeData: Codable {
+    // Example of Array of Codable
     let features:  [Feature]
     
     struct Feature: Codable {
@@ -22,6 +24,7 @@ struct USGSEarthquakeData: Codable {
             let updated: Int
             let magType: String
             
+            // Example of Codable enum with raw value of Int
             enum Tsunami: Int, Codable {
                 case none
                 case possible
@@ -30,12 +33,14 @@ struct USGSEarthquakeData: Codable {
             
             let detail: String
             
+            // Example of Codable enum with raw value of String
             enum Alert: String, Codable {
                 case green
                 case yellow
                 case orange
                 case red
             }
+            // Example of optional property
             let alert: Alert?
             
             enum Status: String, Codable {
