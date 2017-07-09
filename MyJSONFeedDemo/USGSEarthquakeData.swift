@@ -8,10 +8,12 @@
 
 import Foundation
 
-// Example of nested Codable structs with single value keys and native types (Int, String, Double)
+/// This corresponds to a subset of the USGS GeoJSON format described here:
+///
+/// <https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php>
+///
+/// Example of nested Codable structs with single value keys and native types (Int, String, Double)
 struct USGSEarthquakeData: Codable {
-    // Example of Array of Codable
-    let features:  [Feature]
     
     struct Feature: Codable {
         let id: String
@@ -63,6 +65,9 @@ struct USGSEarthquakeData: Codable {
         
         let geometry: Geometry
     }
+    
+    // Example of an Array of a Codable struct
+    let features:  [Feature]
     
     let bbox: [Double]
     
