@@ -15,26 +15,7 @@
 		B6D979C51EF712E6007AE4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D979C31EF712E6007AE4A4 /* Main.storyboard */; };
 		B6D979C71EF712E6007AE4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D979C61EF712E6007AE4A4 /* Assets.xcassets */; };
 		B6D979CA1EF712E6007AE4A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D979C81EF712E6007AE4A4 /* LaunchScreen.storyboard */; };
-		B6D979D51EF712E6007AE4A4 /* MyJSONFeedDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D979D41EF712E6007AE4A4 /* MyJSONFeedDemoTests.swift */; };
-		B6D979E01EF712E6007AE4A4 /* MyJSONFeedDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D979DF1EF712E6007AE4A4 /* MyJSONFeedDemoUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B6D979D11EF712E6007AE4A4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B6D979B21EF712E6007AE4A4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6D979B91EF712E6007AE4A4;
-			remoteInfo = MyJSONFeedDemo;
-		};
-		B6D979DC1EF712E6007AE4A4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B6D979B21EF712E6007AE4A4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6D979B91EF712E6007AE4A4;
-			remoteInfo = MyJSONFeedDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B63097821EF72385004FCD6A /* USGSEarthquakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USGSEarthquakeData.swift; sourceTree = "<group>"; };
@@ -47,30 +28,10 @@
 		B6D979C61EF712E6007AE4A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6D979C91EF712E6007AE4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6D979CB1EF712E6007AE4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6D979D01EF712E6007AE4A4 /* MyJSONFeedDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyJSONFeedDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6D979D41EF712E6007AE4A4 /* MyJSONFeedDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJSONFeedDemoTests.swift; sourceTree = "<group>"; };
-		B6D979D61EF712E6007AE4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6D979DB1EF712E6007AE4A4 /* MyJSONFeedDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyJSONFeedDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6D979DF1EF712E6007AE4A4 /* MyJSONFeedDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJSONFeedDemoUITests.swift; sourceTree = "<group>"; };
-		B6D979E11EF712E6007AE4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B6D979B71EF712E6007AE4A4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6D979CD1EF712E6007AE4A4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6D979D81EF712E6007AE4A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				B6D979BC1EF712E6007AE4A4 /* MyJSONFeedDemo */,
-				B6D979D31EF712E6007AE4A4 /* MyJSONFeedDemoTests */,
-				B6D979DE1EF712E6007AE4A4 /* MyJSONFeedDemoUITests */,
 				B6D979BB1EF712E6007AE4A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				B6D979BA1EF712E6007AE4A4 /* MyJSONFeedDemo.app */,
-				B6D979D01EF712E6007AE4A4 /* MyJSONFeedDemoTests.xctest */,
-				B6D979DB1EF712E6007AE4A4 /* MyJSONFeedDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,24 +71,6 @@
 				B6D979CB1EF712E6007AE4A4 /* Info.plist */,
 			);
 			path = MyJSONFeedDemo;
-			sourceTree = "<group>";
-		};
-		B6D979D31EF712E6007AE4A4 /* MyJSONFeedDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				B6D979D41EF712E6007AE4A4 /* MyJSONFeedDemoTests.swift */,
-				B6D979D61EF712E6007AE4A4 /* Info.plist */,
-			);
-			path = MyJSONFeedDemoTests;
-			sourceTree = "<group>";
-		};
-		B6D979DE1EF712E6007AE4A4 /* MyJSONFeedDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B6D979DF1EF712E6007AE4A4 /* MyJSONFeedDemoUITests.swift */,
-				B6D979E11EF712E6007AE4A4 /* Info.plist */,
-			);
-			path = MyJSONFeedDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,42 +93,6 @@
 			productReference = B6D979BA1EF712E6007AE4A4 /* MyJSONFeedDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B6D979CF1EF712E6007AE4A4 /* MyJSONFeedDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6D979E71EF712E6007AE4A4 /* Build configuration list for PBXNativeTarget "MyJSONFeedDemoTests" */;
-			buildPhases = (
-				B6D979CC1EF712E6007AE4A4 /* Sources */,
-				B6D979CD1EF712E6007AE4A4 /* Frameworks */,
-				B6D979CE1EF712E6007AE4A4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B6D979D21EF712E6007AE4A4 /* PBXTargetDependency */,
-			);
-			name = MyJSONFeedDemoTests;
-			productName = MyJSONFeedDemoTests;
-			productReference = B6D979D01EF712E6007AE4A4 /* MyJSONFeedDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B6D979DA1EF712E6007AE4A4 /* MyJSONFeedDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6D979EA1EF712E6007AE4A4 /* Build configuration list for PBXNativeTarget "MyJSONFeedDemoUITests" */;
-			buildPhases = (
-				B6D979D71EF712E6007AE4A4 /* Sources */,
-				B6D979D81EF712E6007AE4A4 /* Frameworks */,
-				B6D979D91EF712E6007AE4A4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B6D979DD1EF712E6007AE4A4 /* PBXTargetDependency */,
-			);
-			name = MyJSONFeedDemoUITests;
-			productName = MyJSONFeedDemoUITests;
-			productReference = B6D979DB1EF712E6007AE4A4 /* MyJSONFeedDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,20 +108,6 @@
 						DevelopmentTeam = J69E69SP27;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
-					};
-					B6D979CF1EF712E6007AE4A4 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = J69E69SP27;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B6D979B91EF712E6007AE4A4;
-					};
-					B6D979DA1EF712E6007AE4A4 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = J69E69SP27;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B6D979B91EF712E6007AE4A4;
 					};
 				};
 			};
@@ -236,8 +125,6 @@
 			projectRoot = "";
 			targets = (
 				B6D979B91EF712E6007AE4A4 /* MyJSONFeedDemo */,
-				B6D979CF1EF712E6007AE4A4 /* MyJSONFeedDemoTests */,
-				B6D979DA1EF712E6007AE4A4 /* MyJSONFeedDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,20 +137,6 @@
 				B6D979CA1EF712E6007AE4A4 /* LaunchScreen.storyboard in Resources */,
 				B6D979C71EF712E6007AE4A4 /* Assets.xcassets in Resources */,
 				B6D979C51EF712E6007AE4A4 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6D979CE1EF712E6007AE4A4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6D979D91EF712E6007AE4A4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,36 +155,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6D979CC1EF712E6007AE4A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6D979D51EF712E6007AE4A4 /* MyJSONFeedDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6D979D71EF712E6007AE4A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6D979E01EF712E6007AE4A4 /* MyJSONFeedDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B6D979D21EF712E6007AE4A4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B6D979B91EF712E6007AE4A4 /* MyJSONFeedDemo */;
-			targetProxy = B6D979D11EF712E6007AE4A4 /* PBXContainerItemProxy */;
-		};
-		B6D979DD1EF712E6007AE4A4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B6D979B91EF712E6007AE4A4 /* MyJSONFeedDemo */;
-			targetProxy = B6D979DC1EF712E6007AE4A4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B6D979C31EF712E6007AE4A4 /* Main.storyboard */ = {
@@ -468,68 +312,6 @@
 			};
 			name = Release;
 		};
-		B6D979E81EF712E6007AE4A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = J69E69SP27;
-				INFOPLIST_FILE = MyJSONFeedDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatearthstudio.MyJSONFeedDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyJSONFeedDemo.app/MyJSONFeedDemo";
-			};
-			name = Debug;
-		};
-		B6D979E91EF712E6007AE4A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = J69E69SP27;
-				INFOPLIST_FILE = MyJSONFeedDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatearthstudio.MyJSONFeedDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyJSONFeedDemo.app/MyJSONFeedDemo";
-			};
-			name = Release;
-		};
-		B6D979EB1EF712E6007AE4A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = J69E69SP27;
-				INFOPLIST_FILE = MyJSONFeedDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatearthstudio.MyJSONFeedDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = MyJSONFeedDemo;
-			};
-			name = Debug;
-		};
-		B6D979EC1EF712E6007AE4A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = J69E69SP27;
-				INFOPLIST_FILE = MyJSONFeedDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatearthstudio.MyJSONFeedDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = MyJSONFeedDemo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -547,24 +329,6 @@
 			buildConfigurations = (
 				B6D979E51EF712E6007AE4A4 /* Debug */,
 				B6D979E61EF712E6007AE4A4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6D979E71EF712E6007AE4A4 /* Build configuration list for PBXNativeTarget "MyJSONFeedDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6D979E81EF712E6007AE4A4 /* Debug */,
-				B6D979E91EF712E6007AE4A4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6D979EA1EF712E6007AE4A4 /* Build configuration list for PBXNativeTarget "MyJSONFeedDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6D979EB1EF712E6007AE4A4 /* Debug */,
-				B6D979EC1EF712E6007AE4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
