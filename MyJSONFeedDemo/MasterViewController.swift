@@ -10,17 +10,12 @@ import UIKit
 
 class MasterViewController: UITableViewController {
 
-    var detailViewController: DetailViewController? = nil
     var objects: USGSEarthquakeData?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.        
-        if let split = splitViewController {
-            let controllers = split.viewControllers
-            detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
-        }
-        
+
+        // Initiate a fetch
         USGSEarthquakeData.fetch { (geoJSON, error) in
             self.objects = geoJSON
             self.tableView.reloadData()
@@ -74,4 +69,3 @@ class MasterViewController: UITableViewController {
     }
     
 }
-
